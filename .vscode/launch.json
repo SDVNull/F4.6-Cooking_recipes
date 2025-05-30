@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Python: Current File",
+			"type": "debugpy",
+			"request": "launch",
+			"module": "main",
+			"python": "/server/venv/Scripts",  // Замените на путь к вашей Python интерпретатору
+			"cwd": "${workspaceFolder}",
+			"env": {
+				"PYTHONPATH": "${workspaceFolder}"
+			},
+			"args": []
+		}
+	]
+}
