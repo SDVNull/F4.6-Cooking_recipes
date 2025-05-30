@@ -9,4 +9,4 @@ class Dish(models.Model):
     name = models.CharField(max_length=200)
     ingredients = models.TextField()
     instructions = models.TextField()
-    cooking_time = models.PositiveIntegerField()  # в минутах
+    cooking_time = models.PositiveIntegerField()
